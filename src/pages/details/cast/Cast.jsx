@@ -21,7 +21,7 @@ const Cast = ({ data, loading }) => {
     };
     return (
         <div className="castSection">
-            <ContentWrapper>
+            <ContentWrapper className="contentWrapper">
                 <div className="sectionHeading">Top Cast</div>
                 {!loading ? (
                     <div className="listItems">

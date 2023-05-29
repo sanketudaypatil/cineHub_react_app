@@ -6,13 +6,14 @@ import {
     FaLinkedin,
 } from "react-icons/fa";
 
+import ContentWrapper from "../../components/contentWrapper/ContentWrapper"
 
 import "./style.scss";
 
 const Footer = () => {
     return (
         <footer className="footer">
-            <div className="contentWrapper">
+            <ContentWrapper>
                 <ul className="menuItems">
                     <li className="menuItem">Terms Of Use</li>
                     <li className="menuItem">Privacy-Policy</li>
@@ -38,7 +39,7 @@ const Footer = () => {
                         <FaLinkedin />
                     </span>
                 </div>
-            </div>
+            </ContentWrapper>
         </footer>
     );
 };
